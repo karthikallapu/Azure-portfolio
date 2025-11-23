@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthik | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ================= NAVBAR ================= -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Port<span>folio</span></div>
+
+      <nav class="nav" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="assets/Karthik_Resume.pdf" class="btn btn-outline" download>
+        Download CV
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-subtitle">Hello, I'm</p>
+        <h1 class="hero-title">Karthik Patel</h1>
+        <h2 class="hero-role">And I'm a <span class="accent">Web Developer</span></h2>
+
+        <p class="hero-text">
+          I build modern, responsive and user-friendly web applications using
+          HTML, CSS, JavaScript and React. I love turning ideas into clean,
+          scalable code.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="#portfolio" class="btn btn-secondary">Contact Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-target="2">0</span><span class="plus">+</span>
+            <p class="stat-label">Years of experience</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="30">0</span><span class="plus">+</span>
+            <p class="stat-label">Projects completed</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="8">0</span><span class="plus">+</span>
+            <p class="stat-label">Technologies mastered</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="50">0</span><span class="plus">+</span>
+            <p class="stat-label">Happy clients</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="glow-circle"></div>
+        <img src="https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg?auto=compress&cs=tinysrgb&w=600"
+             alt="Profile" class="hero-image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="container section-container">
+      <div class="section-title-wrap">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Who I am</p>
+      </div>
+      <p class="section-text">
+        I'm a Full-Stack Developer with hands-on experience building web
+        applications. I enjoy working across the stack – from crafting pixel-perfect
+        UIs to designing efficient APIs and databases. I focus on clean code,
+        performance, and great user experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="container section-container">
+      <div class="section-title-wrap">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">My toolbox</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Front-End</h3>
+          <p>HTML5, CSS3, JavaScript, React, Bootstrap</p>
+        </div>
+        <div class="skill-card">
+          <h3>Back-End</h3>
+          <p>Java, Node.js (basic), REST APIs</p>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <p>MySQL, MongoDB</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>Git, VS Code, IntelliJ, Postman</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section" id="services">
+    <div class="container section-container">
+      <div class="section-title-wrap">
+        <h2 class="section-title">Services</h2>
+        <p class="section-subtitle">What I do</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-code service-icon"></i>
+          <h3>Web Development</h3>
+          <p>
+            End-to-end development of responsive websites and web apps tailored
+            to your business needs.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-laptop-code service-icon"></i>
+          <h3>Front-End UI</h3>
+          <p>
+            Modern, clean and accessible interfaces with smooth interactions and
+            animations.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-database service-icon"></i>
+          <h3>API & Database</h3>
+          <p>
+            Design and integration of APIs and databases for secure and scalable
+            data handling.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO ================= -->
+  <section class="section" id="portfolio">
+    <div class="container section-container">
+      <div class="section-title-wrap">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">Selected work</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-body">
+            <h3>E-Commerce Platform</h3>
+            <p>
+              Full-stack web app with product listing, cart and order
+              management using Java, HTML, CSS, and SQL.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <h3>Personal Portfolio</h3>
+            <p>
+              Responsive portfolio site with smooth scrolling, sections and
+              animated counters (like this one!).
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <h3>Dashboard UI</h3>
+            <p>
+              Admin dashboard with charts and analytics, built with React and
+              REST APIs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="container section-container">
+      <div class="section-title-wrap">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Let's work together</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>
+            Ready to start a project or want to say hi? Drop a message and I'll
+            get back to you as soon as possible.
+          </p>
+          <ul>
+            <li><i class="fas fa-envelope"></i> yourmail@example.com</li>
+            <li><i class="fas fa-phone"></i> +91-XXXXXXXXXX</li>
+            <li><i class="fas fa-map-marker-alt"></i> Hyderabad, India</li>
+          </ul>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Karthik Patel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
