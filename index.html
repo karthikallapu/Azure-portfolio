@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karthik | Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Karthik Patel — Azure Data Engineer</title>
 
   <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Icons -->
@@ -18,7 +16,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ================= NAVBAR ================= -->
+  <!-- HEADER / NAV -->
   <header class="header">
     <div class="container nav-container">
       <div class="logo">Port<span>folio</span></div>
@@ -27,12 +25,13 @@
         <a href="#home" class="nav-link active">Home</a>
         <a href="#about" class="nav-link">About</a>
         <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
         <a href="#services" class="nav-link">Services</a>
         <a href="#portfolio" class="nav-link">Portfolio</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
-      <a href="assets\Practice Coding\Protfolio\Resume_ADE Allapukarthik.pdf" class="btn btn-outline" download>
+      <a href="assets/Karthik_Resume.pdf" class="btn btn-outline" download>
         Download CV
       </a>
 
@@ -42,7 +41,7 @@
     </div>
   </header>
 
-  <!-- ================= HERO ================= -->
+  <!-- HERO -->
   <section class="hero" id="home">
     <div class="container hero-container">
       <div class="hero-content">
@@ -50,94 +49,109 @@
         <h1 class="hero-title">Karthik Patel</h1>
         <h2 class="hero-role">And I'm an <span class="accent">Azure Data Engineer</span></h2>
 
-
         <p class="hero-text">
-  I design, build, and optimize cloud-based data pipelines using Azure services such as Data Factory, Databricks, Synapse, and Data Lake. I specialize in ETL/ELT workflows, data modeling, and scalable data integration solutions.
-</p>
-
+          I design, build, and optimize cloud data solutions using Azure — Data Factory,
+          Databricks, Synapse and Data Lake. I specialize in ETL/ELT pipelines, data
+          modeling, and building scalable, production-ready data architectures.
+        </p>
 
         <div class="hero-buttons">
           <a href="#contact" class="btn">Hire Me</a>
-          <a href="#portfolio" class="btn btn-secondary">Contact Me</a>
+          <a href="#portfolio" class="btn btn-secondary">View Work</a>
         </div>
 
         <div class="hero-stats">
           <div class="stat">
-            <span class="stat-number" data-target="2">0</span><span class="plus">+</span>
-            <p class="stat-label">Years of experience</p>
+            <span class="stat-number" data-target="2">2</span><span class="plus">+</span>
+            <p class="stat-label">Years Experience</p>
           </div>
           <div class="stat">
-            <span class="stat-number" data-target="10">0</span><span class="plus">+</span>
-            <p class="stat-label">Projects completed</p>
+            <span class="stat-number" data-target="30">3</span><span class="plus">+</span>
+            <p class="stat-label">Projects</p>
           </div>
           <div class="stat">
-            <span class="stat-number" data-target="2">0</span><span class="plus">+</span>
-            <p class="stat-label">Technologies mastered</p>
+            <span class="stat-number" data-target="8">23</span><span class="plus">+</span>
+            <p class="stat-label">Technologies</p>
           </div>
           <div class="stat">
-            <span class="stat-number" data-target="4">0</span><span class="plus">+</span>
-            <p class="stat-label">Happy clients</p>
+            <span class="stat-number" data-target="50">3</span><span class="plus">+</span>
+            <p class="stat-label">Happy Clients</p>
           </div>
         </div>
       </div>
 
       <div class="hero-image-wrapper">
         <div class="glow-circle"></div>
-        <img src="https://github.com/karthikallapu/Azure-portfolio/commit/3cf26c7076e8668a14c04468d6f9d20a608c22f6"
+        <img src="my-passport-photo.jpg"
              alt="Profile" class="hero-image" />
       </div>
     </div>
   </section>
 
-  <!-- ================= ABOUT ================= -->
+  <!-- ABOUT -->
   <section class="section" id="about">
     <div class="container section-container">
       <div class="section-title-wrap">
         <h2 class="section-title">About Me</h2>
         <p class="section-subtitle">Who I am</p>
       </div>
-      <p class="section-text">
-  I'm an Azure Data Engineer with hands-on experience in building scalable data pipelines,
-  performing data transformations, and optimizing cloud-based architectures.
-  I work with Azure Data Factory, Databricks, Synapse, SQL, PySpark, and Delta Lake
-  to deliver automated, reliable, and high-performance data solutions.
-</p>
 
+      <p class="section-text">
+        I'm an Azure Data Engineer with hands-on experience building and operating
+        scalable data pipelines and analytics platforms. I work with Azure Data Factory,
+        Databricks, Synapse Analytics, Azure Data Lake, and Azure SQL to deliver reliable,
+        performant, and maintainable data solutions.
+      </p>
     </div>
   </section>
 
-  <!-- ================= SKILLS ================= -->
-  <section class="section" id="skills">
-    <div class="container section-container">
-      <div class="section-title-wrap">
-        <h2 class="section-title">Skills</h2>
-        <p class="section-subtitle">My toolbox</p>
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="container section-container">
+    <div class="section-title-wrap">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">My toolbox</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Azure Skills -->
+      <div class="skill-card">
+        <h3>Azure Data Engineering</h3>
+        <p>ADF, Databricks, Synapse Analytics, Data Lake, Azure SQL, Key Vault</p>
       </div>
 
-      <div class="skills-grid">
-  <div class="skill-card">
-    <h3>Azure Services</h3>
-    <p>ADF, Databricks, Synapse, Data Lake, Azure SQL, Key Vault</p>
-  </div>
-  <div class="skill-card">
-    <h3>Programming</h3>
-    <p>SQL, Python, PySpark</p>
-  </div>
-  <div class="skill-card">
-    <h3>Data Engineering</h3>
-    <p>ETL/ELT, Delta Lake, Data Modeling, Data Quality</p>
-  </div>
-  <div class="skill-card">
-    <h3>Tools</h3>
-    <p>Git, VS Code, Azure DevOps, Jupyter</p>
-  </div>
-  
-</div>
+      <!-- Programming -->
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>Python, SQL, PySpark, Java (Basics)</p>
+      </div>
+
+      <!-- Data Engineering Concepts -->
+      <div class="skill-card">
+        <h3>Data Engineering Concepts</h3>
+        <p>ETL / ELT, Delta Lake, Data Modeling, Data Quality, Incremental Loads</p>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-card">
+        <h3>Tools & Platforms</h3>
+        <p>Git, GitHub, Azure DevOps, VS Code</p>
+      </div>
+
+      <!-- Front-End Tech -->
+      <div class="skill-card">
+        <h3>Front-End Technologies</h3>
+        <p>
+          HTML5, CSS3, JavaScript (ES6+), React.js, Bootstrap
+        </p>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ================= SERVICES ================= -->
+
+  <!-- SERVICES -->
   <section class="section" id="services">
     <div class="container section-container">
       <div class="section-title-wrap">
@@ -145,39 +159,29 @@
         <p class="section-subtitle">What I do</p>
       </div>
 
-<div class="services-grid">
-  <div class="service-card">
-    <i class="fas fa-cloud service-icon"></i>
-    <h3>Azure Data Pipelines</h3>
-    <p>
-      Design and build end-to-end data pipelines using Azure Data Factory,
-      Databricks, and Synapse for batch and streaming workflows.
-    </p>
-  </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-cloud service-icon"></i>
+          <h3>Azure Data Pipelines</h3>
+          <p>End-to-end pipeline design using ADF, Databricks & Synapse for batch/streaming workflows.</p>
+        </div>
 
-  <div class="service-card">
-    <i class="fas fa-database service-icon"></i>
-    <h3>Data Integration & ETL</h3>
-    <p>
-      Develop scalable ETL/ELT solutions, transform raw data into actionable insights,
-      and ensure high data reliability.
-    </p>
-  </div>
+        <div class="service-card">
+          <i class="fas fa-database service-icon"></i>
+          <h3>ETL & Data Integration</h3>
+          <p>Metadata-driven ETL/ELT, incremental loads, and scalable transforms using PySpark & Delta Lake.</p>
+        </div>
 
-  <div class="service-card">
-    <i class="fas fa-chart-line service-icon"></i>
-    <h3>Data Modeling</h3>
-    <p>
-      Create Star/Snowflake schemas, optimize data storage, and improve
-      query performance using SQL & Delta Lake.
-    </p>
-  </div>
-</div>
-
+        <div class="service-card">
+          <i class="fas fa-chart-line service-icon"></i>
+          <h3>Data Modeling & BI</h3>
+          <p>Design dimensional models for reporting, optimize queries, and support Synapse/Power BI integration.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ================= PORTFOLIO ================= -->
+  <!-- PORTFOLIO / PROJECTS -->
   <section class="section" id="portfolio">
     <div class="container section-container">
       <div class="section-title-wrap">
@@ -186,41 +190,31 @@
       </div>
 
       <div class="projects-grid">
-  <div class="project-card">
-    <div class="project-body">
-      <h3>Azure Data Pipeline Automation</h3>
-      <p>
-        Developed an end-to-end automated pipeline using ADF, Databricks, and Azure SQL
-        to ingest, transform, and load enterprise datasets.
-      </p>
-    </div>
-  </div>
+        <div class="project-card">
+          <div class="project-body">
+            <h3>Azure Data Pipeline Automation</h3>
+            <p>Automated ingestion pipelines using ADF and Databricks to move and transform enterprise datasets.</p>
+          </div>
+        </div>
 
-  <div class="project-card">
-    <div class="project-body">
-      <h3>Delta Lake ETL Framework</h3>
-      <p>
-        Built a metadata-driven ETL framework with PySpark and Delta Lake
-        enabling scalable incremental data loading.
-      </p>
-    </div>
-  </div>
+        <div class="project-card">
+          <div class="project-body">
+            <h3>Delta Lake ETL Framework</h3>
+            <p>Built incremental ETL framework with PySpark & Delta Lake enabling ACID-compliant data storage.</p>
+          </div>
+        </div>
 
-  <div class="project-card">
-    <div class="project-body">
-      <h3>Synapse Analytics Model</h3>
-      <p>
-        Designed and deployed a dimensional model with Star Schema
-        in Azure Synapse to support enterprise BI dashboards.
-      </p>
-    </div>
-  </div>
-</div>
-
+        <div class="project-card">
+          <div class="project-body">
+            <h3>Synapse Analytics Model</h3>
+            <p>Designed star-schema models in Synapse and optimized for fast reporting and dashboarding.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ================= CONTACT ================= -->
+  <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="container section-container">
       <div class="section-title-wrap">
@@ -230,41 +224,30 @@
 
       <div class="contact-grid">
         <div class="contact-info">
-          <p>
-  Looking to discuss a data engineering project or cloud migration?
-  Send a message and I’ll get back to you soon.
-</p>
-
+          <p>Looking to discuss a data engineering project or cloud migration? Send a message and I'll respond soon.</p>
           <ul>
-            <li><i class="fas fa-envelope"></i>allapukarthik19@gmail.com</li>
+            <li><i class="fas fa-envelope"></i> allapukarthik19@gmail.com</li>
             <li><i class="fas fa-phone"></i> +91-9603271443</li>
-            <li><i class="fas fa-map-marker-alt"></i> Hyderabad,Telangana,India</li>
+            <li><i class="fas fa-map-marker-alt"></i> Hyderabad,Telangana, India</li>
           </ul>
 
           <div class="social-links">
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/allapukarthik" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/karthikallapu" target="_blank"><i class="fab fa-github"></i></a>
           </div>
         </div>
 
-        <form class="contact-form">
-          <div class="form-group">
-            <input type="text" placeholder="Your Name" required />
-          </div>
-          <div class="form-group">
-            <input type="email" placeholder="Your Email" required />
-          </div>
-          <div class="form-group">
-            <textarea rows="4" placeholder="Your Message" required></textarea>
-          </div>
+        <form class="contact-form" onsubmit="handleContact(event)">
+          <div class="form-group"><input type="text" id="name" placeholder="Your Name" required /></div>
+          <div class="form-group"><input type="email" id="email" placeholder="Your Email" required /></div>
+          <div class="form-group"><textarea id="message" rows="4" placeholder="Your Message" required></textarea></div>
           <button type="submit" class="btn btn-block">Send Message</button>
         </form>
       </div>
     </div>
   </section>
 
-  <!-- ================= FOOTER ================= -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-container">
       <p>&copy; <span id="year"></span> Karthik Patel. All rights reserved.</p>
@@ -274,7 +257,3 @@
   <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
     <i class="fas fa-arrow-up"></i>
   </button>
-
-  <script src="script.js"></script>
-</body>
-</html>
